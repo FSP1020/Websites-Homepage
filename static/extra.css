@@ -1,0 +1,22 @@
+.masthead {
+  background-image: url('images/wood_flag.jpg');
+  text-shadow: 2px 2px 4px black;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+} 
+
+
+@media (min-width: 992px) {
+
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+}
+}
+
+@media (min-width: 200px){
+.masthead {
+  width: 100vw;
+}
+}
